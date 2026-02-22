@@ -381,7 +381,7 @@ async def test_memory_recall():
     await memory.store("agent1", "pref", "theme", "dark")
     memories = await memory.recall("agent1", "pref")
     assert memories[0]["value"] == "dark"
-📹 Demo Video
+📹 Demo Video https://www.loom.com/share/ab855042daec4330922ab54e488b74d5
 
 Video Chapters:
 
@@ -607,7 +607,7 @@ bash
 cat > CODE_OF_CONDUCT.md << 'EOF'
 # Contributor Covenant Code of Conduct
 
-## Our Pledge
+Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
@@ -996,7 +996,7 @@ Internal API methods use the agent's context. REST API is local-only by default.
 For production deployment, add authentication middleware.
 EOF
 
-### **Step 9: Create DEPLOYMENT.md**
+Create DEPLOYMENT.md**
 
 ```bash
 cat > docs/DEPLOYMENT.md << 'EOF'

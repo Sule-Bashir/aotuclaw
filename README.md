@@ -142,7 +142,7 @@ Git
 Quick Start
 bash
 Clone repository
-git clone https://github.com/yourusername/autoclaw.git
+git clone https://github.com/Sule-Bashir/autoclaw.git
 cd autoclaw
 
 Create virtual environment
